@@ -26,9 +26,7 @@ async function onCreateNode({
   if (node.extension !== "tfstate") {
     return;
   }
-  console.error(node);
   const content = await loadNodeContent(node);
-  console.error(content);
   const tfState = JSON.parse(content);
   flatten(
     tfState.resources
