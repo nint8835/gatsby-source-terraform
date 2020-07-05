@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-transformer-terraform",
+  "version": "1.0.0",
+  "description": "Gatsby counterpart to terraform-provider-gatsby.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nint8835/gatsby-transformer-terraform.git"
+  },
+  "author": "Riley Flynn <riley@rileyflynn.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nint8835/gatsby-transformer-terraform/issues"
+  },
+  "homepage": "https://github.com/nint8835/gatsby-transformer-terraform#readme",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
